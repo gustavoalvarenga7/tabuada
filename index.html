@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABUADA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>TABUADA</h1>
+    </header>
+    <section>
+        <div>
+            Número: <input type="number" name="numero" id="txtnum">
+            <input type="button" value="Gerar Tabuada" id="botao" onclick="calcular()">          
+        </div>
+        <div id="res">
+            <select name="resultado" id="seltab" size=10>
+                <option>Digite um número acima</option>
+            </select>
+        </div>
+    </section>
+    <footer>
+        <script>
+            var data = new Date() 
+            var ano =  data.getFullYear()  
+            document.write(`<p>Desenvolvido por <strong>@gustavoalvarenga7</strong></p>`)
+        </script>  
+    </footer>
+    <script src="function.js"></script>
+</body>
+</html>
