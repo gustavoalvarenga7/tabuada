@@ -3,3 +3,4 @@ Primeira função desenvolvida em Javascript. Desenvolver uma tabuada de um núm
 
 Para essa prática criei uma função que ao clicar no botão "Gerar tabuada" será chamada.
 
+![](img/tabuada2-img.png)
